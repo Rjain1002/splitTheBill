@@ -31,6 +31,9 @@ body {
   grid-template-columns: 34rem 44rem;
   column-gap: 4rem;
   align-items: start;
+  border: 7px solid var(--color-light); /* Added border */
+  border-radius: 7px; /* Optional: To match the rounded corners */
+  padding: 2rem;
 }
 
 .button {
@@ -55,6 +58,7 @@ body {
   gap: 0.4rem;
   font-size: 1.4rem;
   margin-bottom: 2rem;
+  /* border: 2px solid var(--color-light); Added border */
 }
 
 .sidebar li {
@@ -112,7 +116,7 @@ form {
   display: grid;
   align-items: center;
   gap: 1.2rem;
-
+  border: 2px solid var(--color-light); /* Added border */
   background-color: var(--color-lightest);
   border-radius: 7px;
 }
@@ -125,6 +129,8 @@ form {
 .form-split-bill {
   grid-template-columns: 1fr 12rem;
   padding: 3.2rem 4rem;
+  border: 2px solid var(--color-light); /* Added border */
+  border-radius: 7px; /* Optional: To match the rounded corners */
 }
 
 label {
